@@ -18,20 +18,26 @@
     margin-right: 150px !important;
     margin-bottom: 12px;
 }
-.nav {
+/*.nav {
     font-size: 20px;
-}
+}*/
 .nav-tabs {
     padding-top: 15px;
     border: none;
 }
-.nav-tabs li{
-    padding-left: 110px;
-    font-size: 1.4em;
+/*.nav-tabs li{
+
+}*/
+.nav-tabs > li > a{
+    font-size: 16px;
+    font-weight: 200;
     text-align: top;
+    color: #000000;
+    border-radius: 8px !important;
 }
-.nav-tabs a{
+.nav-tabs > li > a:hover{
     color: #61aee6;
+    background-color: #ffffff;
 }
 .jumbotron, .container-fluid{
     padding-left: 0px !important;
