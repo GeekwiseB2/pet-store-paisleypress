@@ -10,22 +10,24 @@
 </head>
 ​
 <body>
-​
-    <div class="container-fluid"> <!---begin banner layout -->
-		<div class="col-md-4">
-			<img src="img/petstore_logo.png" alt= "Pet Store Logo" class="pull-left logo">
-			<h3 class="logo-text">Pet Store</h3>
-		</div>
-		<div class="col-md-6 col-md-offset-2">
-			<ul class="nav nav-tabs">
-			  <li role="presentation"><a href="index.html">Home</a></li>
-			  <li role="presentation"><a href="#">Products</a></li>
-			  <li role="presentation" class="active"><a href="contact.html">Contact Us</a></li>
-		    </ul> <!--end of nav-->
-	    </div> <!--end of col-md-4 with offset 4-->
-	</div> <!-- end banner layout -->
 
-	<div class="container-fluid content"><!--- Content --->
+    <div class="container-fluid header"> <!-- begin header format -->
+  		<div class="row">
+  			<div class="col-md-6 logo-img">
+  				<img src="img/petstore_logo.png" alt= "Pet Store Logo" class="pull-left logo">
+  				<h3 class="logo-text">Pet Store</h3>
+  			</div>
+  			<div class="col-md-6"> <!-- begin nav tabs -->
+  				<ul class="nav nav-tabs pull-right">
+  				  <li role="presentation"><a href="#">Home</a></li>
+  				  <li role="presentation"><a href="#">Products</a></li>
+  				  <li role="presentation"><a href="#" class="active">Contact Us</a></li>
+			  	</ul>
+  		    </div> <!-- end of nav tabs -->
+  	  	</div><!--end of row-->
+    </div><!--end of container: header -->
+​
+    <div class="container-fluid content"><!--- Content --->
     	<div class="row">
 			<div class="col-md-1"></div>
       		<div class="col-md-5 doctor-info">
@@ -55,6 +57,7 @@
 		    </div>
 			<div class="col-md-1"></div>
 		</div>
+
 		<div class="row">
 			<div class="col-md-1"></div>
 			<div class="col-md-8">
@@ -97,8 +100,7 @@
 					</tbody>
 	            </table>
 			</div>
-        </div><!--end row: table -->
-
+		</div>
     </div><!-- end container: content -->
 ​​
     <div class="container-fluid footer"> <!---Footer--->
